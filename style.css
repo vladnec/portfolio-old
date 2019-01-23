@@ -1,0 +1,275 @@
+/* Global*/
+
+
+ @font-face { font-family: Prime; src: url('fonts/prime/prime-regular.otf'); } 
+ @font-face { font-family: Quicksand; src: url('fonts/quicksand/Quicksand-Regular.otf'); } 
+
+html, body {
+	margin:0;
+	padding:0;
+	width:100%;
+	height: 100%;
+}
+
+body {
+	font-family: Quicksand;
+}
+
+header {
+	width:100%;
+	height: 100vh;
+	background: url(img/hero.jpg) no-repeat 50% 50%;
+	background-size:cover;
+}
+.content {
+	width:90%;
+	margin: 4em auto;
+	font-size:20px;
+	line-height:30px;
+	text-align: justify;
+}
+
+.logo {
+	position: fixed;
+	float: left;
+	margin: 16px 36px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+}
+
+nav ul {
+	list-style: none;
+	background: rgba(0,0,0,0);
+	overflow: hidden;
+	color:#fff;
+	padding: 0;
+	text-align: center;
+	margin: 0;
+	transition: 2s;
+}
+
+nav.black ul {
+	background: #000;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 20px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+
+}
+
+.menu-icon {
+	width:100%;
+	background: #000;
+	text-align: right;
+	box-sizing: border-box;
+	padding: 15px 24px;
+	cursor: pointer;
+	color: #fff;
+	display: none;
+}
+
+@media(max-width: 580px) {
+	.logo {
+		position: fixed;
+		top: 0;
+		margin-top: 16px;
+	}
+
+	nav ul {
+		max-height: 0px;
+		background: #000;
+	}
+
+	nav.black ul {
+		background: #000;
+	}
+
+	.showing {
+		max-height: 20em;
+	}
+
+	nav ul li {
+		box-sizing: border-box;
+		width: 100%;
+		padding: 24px 0;
+		text-align: center;
+
+	}
+
+	.menu-icon {
+		display: block;
+	}
+}
+/* Project Page */
+.middle {
+	position: absolute;
+	top:50%;;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	animation: fadeIn 3.4s linear;
+}
+
+.soon {
+	font-size: 40px;
+	letter-spacing: 30px;
+	font-weight: 100;
+	color:#fff;
+	font-family: Prime;
+}
+
+#demo {
+	font-weight: lighter;
+	word-spacing: 20px;
+}
+
+hr {
+	margin: auto;
+	width: 80%;
+	border: 1.5px solid #fff;
+}
+
+
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.jumbotron {
+	position:absolute;
+	top:20%;
+	left:12%;
+	color:#fff;
+	font-size: 30px;
+	font-family: Roboto;
+
+}
+
+.jumbotron ul  {
+	list-style: none;
+	color:#fff;
+	
+
+}
+
+.jumbotron ul li {
+	display: inline-block;
+	padding: 20px;
+
+}
+
+.jumbotron ul li a {
+	text-decoration: none;
+	color:#fff;
+	font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
